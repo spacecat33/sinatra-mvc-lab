@@ -6,8 +6,8 @@ class PigLatinizer
     #     @str = str
     # end
 
-    def piglatinize(text)
-        words = text.split(" ")
+    def piglatinize(str)
+        words = str.split(" ")
         pig_latin = []
         words.each do |word|
           if word.length == 1
